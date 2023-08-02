@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+   <Button
+        android:id="@+id/exit"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableLeft="@drawable/ic_round_arrow_back_24"
+        android:text="@string/exit" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:text="@string/new_list_item"
+       android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintBottom_toTopOf="@id/itemName"/>
+
+    <EditText
+        android:id="@+id/itemName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="text"
+        android:hint="@string/item_name"
+        android:focusable="true"
+        android:importantForAutofill="no"
+        app:layout_constraintTop_toBottomOf="@id/exit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <EditText
+        android:id="@+id/itemDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="text"
+        android:hint="@string/item_description"
+        android:importantForAutofill="no"
+        app:layout_constraintTop_toBottomOf="@id/itemName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/save"/>
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:contentDescription="@string/image_for_list_item"
+        app:layout_constraintTop_toBottomOf="@id/itemDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="16dp"
+        android:src="@drawable/placeholder_image"/>
+
+
+    <Button
+        android:id="@+id/addImageButton"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/Image"
+        app:layout_constraintTop_toBottomOf="@id/itemDescription"
+        app:layout_constraintBottom_toBottomOf="@id/Image"
+        android:text="@string/add_image"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TodoList</string>
+    <string name="add_item_to_the_list">Add item to the list</string>
+    <string name="item_name">Item name</string>
+    <string name="save">save</string>
+    <string name="exit">exit</string>
+    <string name="add_item_fragment">Add item Fragment</string>
+    <string name="item_description">Item description</string>
+    <string name="remove_from_list">remove from list</string>
+    <string name="image_for_list_item">image for list item</string>
+    <string name="add_image">add image</string>
+    <string name="new_list_item">New list item</string>
+    <string name="empty_item_name">Please add an item name</string>
+    <string name="delete_all">delete all</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TodoList</string>
+    <string name="add_item_to_the_list">Neue Erinnerung</string>
+    <string name="item_name">Titel</string>
+    <string name="save">hinzufügen</string>
+    <string name="exit">zurück</string>
+    <string name="item_description">Beschreibung</string>
+    <string name="remove_from_list">Aus Liste entfernen</string>
+    <string name="image_for_list_item">Bild für Erinnerung</string>
+    <string name="add_image">Bild hinzufügen</string>
+    <string name="new_list_item">Neue Erinnerung</string>
+    <string name="add_item_fragment">Neue Erinnerung- Fragment</string>
+    <string name="empty_item_name">Bitte einen Namen für die Erinnerung eintragen</string>
+    <string name="delete_all">Alle löschen</string>
+</resources>
